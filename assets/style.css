@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text color for contrast */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #292828;
+    width: 100%;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 5.5em;
+}
+
+.header-subtitle {
+    font-size: 1em;
+    color: #878686;
+}
+
+/* Control Panel Styles */
+.control-panel {
+    width: 100%;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 1em;
+    color: #a29f9f;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #3A3A3A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.button:hover {
+    background-color: #505050;
+}
+
+/* Graph Container Styles */
+.graph-container {
+    display: flex;
+    flex: 1; /* Allow both graphs to grow equally */
+    justify-content: space-between; /* Distributes space between the graphs */
+    width: 100%;
+}
+
+.graph, .pie-chart {
+    margin: 20px;
+    padding: 15px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    min-width: 500px; /* Set a minimum width for responsiveness */
+    max-width: 500px; /* Set a maximum width for the graphs */
+    height: auto;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #B0B0B0;
+}

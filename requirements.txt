@@ -1,0 +1,6 @@
+scapy
+psutil
+matplotlib
+dash
+plotly
+pandas
